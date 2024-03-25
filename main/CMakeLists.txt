@@ -4,4 +4,5 @@ idf_component_register(
         "app_gui.c"
     INCLUDE_DIRS
         "."
+    REQUIRES ttgo-t-display
 )

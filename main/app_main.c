@@ -15,6 +15,7 @@
 
 #include <bsp/esp-bsp.h>
 
+#include <esp_lvgl_port.h>
 #include <lvgl.h>
 
 static const char *TAG = "APP-MAIN";
