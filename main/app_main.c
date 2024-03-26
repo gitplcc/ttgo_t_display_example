@@ -15,16 +15,13 @@
 
 #include <assert.h>
 
+extern void app_ui(lv_obj_t *scr);
+
 static const char *TAG = "APP-MAIN";
-
-void app_ui(lv_obj_t *scr)
-{
-
-}
 
 void app_main(void)
 {
-    ESP_LOGD("TTGO-T-DISPLAY example", "Startting display.");
+    ESP_LOGD("TTGO-T-DISPLAY example", "Starting display.");
     lv_disp_t *disp = bsp_display_start();
     assert(disp);
 
