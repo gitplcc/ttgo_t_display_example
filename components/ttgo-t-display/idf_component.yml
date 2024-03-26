@@ -1,6 +1,11 @@
 dependencies:
   idf:
     version: "~5.2"
+  lvgl/lvgl:
+    version: "^8"
+    public: true
+  espressif/esp_lvgl_port:
+    version: "~2.0"
 description: "BSP for Lilygo TTGO-T-DISPLAY board"
 license: "Apache-2.0"
 maintainers:
