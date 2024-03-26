@@ -1,0 +1,3 @@
+[submodule "components/ttgo_t_display"]
+	path = components/ttgo_t_display
+	url = git@github.com:gitplcc/ttgo_t_display.git
